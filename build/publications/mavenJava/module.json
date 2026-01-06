@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "info.jemsit",
+    "module": "common-contracts",
+    "version": "1.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter-openfeign",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "version": {
+            "requires": "3.5.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.19.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.19.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-contracts-1.0.2.jar",
+          "url": "common-contracts-1.0.2.jar",
+          "size": 1694,
+          "sha512": "9f55b0eb3aafb5421cebd3f3dd55d61ae2a7d5a939b0ecbaaf193a19bb263808d734c569a92964eb25d1f5ab2fe65b9028a2276c7e4a83713dec583a8cb440e2",
+          "sha256": "928207b7167e26de95bfa9ac164b57afd41871f00879650095687bfce4cfacea",
+          "sha1": "4045e22b88a8ea4f84262220e8ef8091ac43b840",
+          "md5": "1d721bcedd98f22563e83848c504fa2b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.cloud",
+          "module": "spring-cloud-starter-openfeign",
+          "version": {
+            "requires": "4.1.0"
+          }
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "version": {
+            "requires": "3.5.6"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-annotations",
+          "version": {
+            "requires": "2.19.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-core",
+          "version": {
+            "requires": "2.19.2"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.19.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-contracts-1.0.2.jar",
+          "url": "common-contracts-1.0.2.jar",
+          "size": 1694,
+          "sha512": "9f55b0eb3aafb5421cebd3f3dd55d61ae2a7d5a939b0ecbaaf193a19bb263808d734c569a92964eb25d1f5ab2fe65b9028a2276c7e4a83713dec583a8cb440e2",
+          "sha256": "928207b7167e26de95bfa9ac164b57afd41871f00879650095687bfce4cfacea",
+          "sha1": "4045e22b88a8ea4f84262220e8ef8091ac43b840",
+          "md5": "1d721bcedd98f22563e83848c504fa2b"
+        }
+      ]
+    }
+  ]
+}
