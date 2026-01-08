@@ -7,7 +7,7 @@ public record RegisterRequestDTO(
         String username,
         @ValidPassword
         String password,
-        @Email
+        @Email(message = "Email should be valid")
         String email,
         String agencyName,
         String licenseNumber
