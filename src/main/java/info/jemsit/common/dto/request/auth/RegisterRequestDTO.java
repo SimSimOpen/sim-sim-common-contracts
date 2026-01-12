@@ -1,4 +1,4 @@
-package info.jemsit.common.dto.request;
+package info.jemsit.common.dto.request.auth;
 
 import info.jemsit.common.annotations.ValidPassword;
 import jakarta.validation.constraints.Email;

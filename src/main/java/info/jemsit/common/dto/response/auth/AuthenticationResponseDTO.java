@@ -1,4 +1,4 @@
-package info.jemsit.common.dto.request;
+package info.jemsit.common.dto.response.auth;
 
 import info.jemsit.common.data.enums.Roles;
 

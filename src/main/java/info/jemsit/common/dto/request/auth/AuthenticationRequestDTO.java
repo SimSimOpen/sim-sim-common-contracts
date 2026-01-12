@@ -1,4 +1,4 @@
-package info.jemsit.common.dto.request;
+package info.jemsit.common.dto.request.auth;
 
 public record AuthenticationRequestDTO (String username, String password) {
 }

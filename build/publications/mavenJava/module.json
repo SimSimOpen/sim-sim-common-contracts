@@ -3,7 +3,7 @@
   "component": {
     "group": "info.jemsit",
     "module": "common-contracts",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -62,13 +62,13 @@
       ],
       "files": [
         {
-          "name": "common-contracts-1.1.1.jar",
-          "url": "common-contracts-1.1.1.jar",
-          "size": 9526,
-          "sha512": "699e8e76a42dfa02a5d2ac80fd80abb6301eb8be73901820f41d01834629c9c55258c8d0adfad297936b5f047ba4a78116091624f66450f92553c0f47ebe77ed",
-          "sha256": "08691c9c05f1a7bc0c6dd9e95d6a3558ffe7e3d5a836f8a981f4030843a52e8a",
-          "sha1": "629f54593ebabd3656890d159f4d885a04cc7c80",
-          "md5": "ac8930af9f94ba4d34d9e956216edb04"
+          "name": "common-contracts-1.1.2.jar",
+          "url": "common-contracts-1.1.2.jar",
+          "size": 9143,
+          "sha512": "14ee90f7972cc043ef393e48974190dca400e7df61e42a5e3f5081e3b70fc5a0db49152b2714cb7263a8667e750a5c926b48c1302e1bc197d9be8abd08d58167",
+          "sha256": "275bfc06c3ec5fe27e338c44c7b15dc2d3787545da1bf35ec1d0c4f6af56114d",
+          "sha1": "58ceea2d39ba10f1d60e417fca32e92866c2e2ae",
+          "md5": "38fa5d05a43064dfe0d0fd95d085b8d1"
         }
       ]
     },
@@ -120,13 +120,13 @@
       ],
       "files": [
         {
-          "name": "common-contracts-1.1.1.jar",
-          "url": "common-contracts-1.1.1.jar",
-          "size": 9526,
-          "sha512": "699e8e76a42dfa02a5d2ac80fd80abb6301eb8be73901820f41d01834629c9c55258c8d0adfad297936b5f047ba4a78116091624f66450f92553c0f47ebe77ed",
-          "sha256": "08691c9c05f1a7bc0c6dd9e95d6a3558ffe7e3d5a836f8a981f4030843a52e8a",
-          "sha1": "629f54593ebabd3656890d159f4d885a04cc7c80",
-          "md5": "ac8930af9f94ba4d34d9e956216edb04"
+          "name": "common-contracts-1.1.2.jar",
+          "url": "common-contracts-1.1.2.jar",
+          "size": 9143,
+          "sha512": "14ee90f7972cc043ef393e48974190dca400e7df61e42a5e3f5081e3b70fc5a0db49152b2714cb7263a8667e750a5c926b48c1302e1bc197d9be8abd08d58167",
+          "sha256": "275bfc06c3ec5fe27e338c44c7b15dc2d3787545da1bf35ec1d0c4f6af56114d",
+          "sha1": "58ceea2d39ba10f1d60e417fca32e92866c2e2ae",
+          "md5": "38fa5d05a43064dfe0d0fd95d085b8d1"
         }
       ]
     }
