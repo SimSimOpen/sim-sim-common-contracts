@@ -3,7 +3,7 @@
   "component": {
     "group": "info.jemsit",
     "module": "common-contracts",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -62,13 +62,13 @@
       ],
       "files": [
         {
-          "name": "common-contracts-1.1.4.jar",
-          "url": "common-contracts-1.1.4.jar",
-          "size": 12568,
-          "sha512": "5567c75d8a15af87edf47350ff07235a57c32ac49473ab2973f24ebf16c8ec2a4acf5b2770f2919f1f0d03316531e5a2d23509da67facffdf7855762716588a3",
-          "sha256": "62feacfe1d987cf8d22667a87d88799ca804a297315e6f9f9b26bf16f2de813d",
-          "sha1": "252130c5a2f403133f440a7cf2aa260186765ab4",
-          "md5": "cc3cd904bc98055d7c69d6afca8f72cf"
+          "name": "common-contracts-1.1.5.jar",
+          "url": "common-contracts-1.1.5.jar",
+          "size": 12603,
+          "sha512": "417d65c98aae56f3f0be4a33287754bbe39bf1a368a0a35889b025d936040626be5a8de00037a7006b98caf8b1a134eeec5e2faee01fccc657a815a8fdf7d774",
+          "sha256": "69b64709daedc4b764297630b16e5cf6ab97b66b5ddecedca61907a52b1faffc",
+          "sha1": "bba7d202556b8af5bf2c477c7db25574c32923cb",
+          "md5": "1d5400e81b0e738038791f81cc10203a"
         }
       ]
     },
@@ -120,13 +120,13 @@
       ],
       "files": [
         {
-          "name": "common-contracts-1.1.4.jar",
-          "url": "common-contracts-1.1.4.jar",
-          "size": 12568,
-          "sha512": "5567c75d8a15af87edf47350ff07235a57c32ac49473ab2973f24ebf16c8ec2a4acf5b2770f2919f1f0d03316531e5a2d23509da67facffdf7855762716588a3",
-          "sha256": "62feacfe1d987cf8d22667a87d88799ca804a297315e6f9f9b26bf16f2de813d",
-          "sha1": "252130c5a2f403133f440a7cf2aa260186765ab4",
-          "md5": "cc3cd904bc98055d7c69d6afca8f72cf"
+          "name": "common-contracts-1.1.5.jar",
+          "url": "common-contracts-1.1.5.jar",
+          "size": 12603,
+          "sha512": "417d65c98aae56f3f0be4a33287754bbe39bf1a368a0a35889b025d936040626be5a8de00037a7006b98caf8b1a134eeec5e2faee01fccc657a815a8fdf7d774",
+          "sha256": "69b64709daedc4b764297630b16e5cf6ab97b66b5ddecedca61907a52b1faffc",
+          "sha1": "bba7d202556b8af5bf2c477c7db25574c32923cb",
+          "md5": "1d5400e81b0e738038791f81cc10203a"
         }
       ]
     }

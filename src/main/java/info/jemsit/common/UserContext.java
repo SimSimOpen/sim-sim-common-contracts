@@ -20,4 +20,8 @@ public class UserContext {
     public static String getUserToken() {
         return userToken.get();
     }
+
+    public static void clear() {
+        userToken.remove();
+    }
 }
