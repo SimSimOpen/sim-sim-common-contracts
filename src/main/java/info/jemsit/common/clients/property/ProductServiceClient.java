@@ -1,9 +1,11 @@
 package info.jemsit.common.clients.property;
 
 import info.jemsit.common.clients.FeignAuthInterceptor;
+import info.jemsit.common.dto.request.product.property.AddPropertyImagesRequestDTO;
 import info.jemsit.common.dto.response.product.propeprty.PropertyResponseDTO;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
@@ -15,5 +17,5 @@ public interface ProductServiceClient {
     PropertyResponseDTO createDraftProperty();
 
     @PostMapping(value = "/v1/property/add/images")
-    PropertyResponseDTO addPropertyImage(@RequestParam(value = "property_id", required = false) Long property_id, @RequestParam("urls") List<String> urls);
+    PropertyResponseDTO addPropertyImage(@RequestBody AddPropertyImagesRequestDTO request);
 }
