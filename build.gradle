@@ -40,14 +40,13 @@ dependencyManagement {
         mavenBom "org.springframework.boot:spring-boot-dependencies:${springBootVersion}"
     }
 }
-
+version = '1.0.0-SNAPSHOT'
 publishing {
     publications {
         mavenJava(MavenPublication) {
             from components.java
             groupId = 'info.jemsit'
             artifactId = 'common-contracts'
-            version = '1.4.1'
 
             versionMapping {
                 usage('java-api') {
