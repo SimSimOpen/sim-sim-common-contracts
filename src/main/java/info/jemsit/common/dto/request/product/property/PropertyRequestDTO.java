@@ -7,10 +7,12 @@ import java.math.BigDecimal;
 public record PropertyRequestDTO(
         Long id,
         String title,
-        Double description,
+        String description,
         BigDecimal price,
         Integer numberOfRooms,
         Double area,
+        Integer floor,
+        Integer totalFloors,
         String publish,
 
         PropertyCategory category,
@@ -19,6 +21,7 @@ public record PropertyRequestDTO(
         ListingStatus listingStatus,
         OccupancyStatus occupancyStatus,
 
+        PropertyAmenities amenities,
         String ownerContact,
         String agent,
         Long agentID,

@@ -1,7 +1,7 @@
 package info.jemsit.common.dto.response.product.propeprty;
 
 import info.jemsit.common.data.enums.property.*;
-import info.jemsit.common.dto.request.product.property.PropertyLocation;
+import info.jemsit.common.dto.request.product.property.PropertyAmenities;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -10,10 +10,12 @@ import java.util.List;
 public record PropertyResponseDTO(
         Long id,
         String title,
-        Double description,
+        String description,
         BigDecimal price,
         Integer numberOfRooms,
         Double area,
+        Integer floor,
+        Integer totalFloors,
         String publish,
 
         PropertyCategory category,
@@ -25,8 +27,9 @@ public record PropertyResponseDTO(
         String ownerContact,
         String agent,
         Long agentID,
-        PropertyLocation location,
+        List<String> location, //{place-name, district-name, region-name, address} only in Uzbekistan
         List<PropertyMedia> medias,
+        PropertyAmenities amenities,
         LocalDateTime createdAt,
         LocalDateTime updatedAt
 ) {
