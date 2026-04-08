@@ -1,5 +1,6 @@
 package info.jemsit.common.dto.response.product.propeprty;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import info.jemsit.common.data.enums.property.*;
 import info.jemsit.common.dto.request.product.property.PropertyAmenities;
 
@@ -17,6 +18,7 @@ public record PropertyResponseDTO(
         Integer floor,
         Integer totalFloors,
         String publish,
+        @JsonProperty("views") long viewCount,
 
         PropertyCategory category,
         PropertyType type,
