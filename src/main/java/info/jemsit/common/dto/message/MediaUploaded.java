@@ -5,11 +5,9 @@ import info.jemsit.common.data.enums.RabbitMQMessages;
 
 @JsonTypeName("MediaUploaded")
 public class MediaUploaded extends RabbitMQMessage{
-    public MediaUploaded(String id, RabbitMQMessages message) {
-        super(id, message);
+    public MediaUploaded(String userId, RabbitMQMessages message) {
+        super(userId, message);
     }
 
-    public MediaUploaded() {
-        super(null, null);
-    }
+    protected MediaUploaded() {}
 }

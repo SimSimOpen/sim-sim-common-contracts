@@ -10,6 +10,7 @@ public record  AuthenticationResponseDTO (
         String email,
         List<Roles> authorities,
         String token,
-        String refreshToken
+        String refreshToken,
+        ProfileResponseDTO profile
 ) {
 }

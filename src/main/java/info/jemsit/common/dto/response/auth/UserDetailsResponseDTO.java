@@ -8,6 +8,7 @@ public record UserDetailsResponseDTO(
         Long id,
         String username,
         String email,
-        List<Roles> roles
+        List<Roles> roles,
+        ProfileResponseDTO profile
 ) {
 }

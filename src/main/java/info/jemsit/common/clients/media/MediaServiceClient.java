@@ -10,7 +10,7 @@ import java.util.List;
 
 @FeignClient(name = "media-service", path = "/api/media", configuration = FeignAuthInterceptor.class)
 public interface MediaServiceClient {
-    @PostMapping("/v1/upload")
+    @PostMapping("/v1/upload-product-media")
     UploadImagesResponseDTO uploadMedia(@RequestParam(value = "property_id", required = false) Long property_id, @RequestPart("files") List<MultipartFile> files);
 
     @DeleteMapping("/v1/delete/media")

@@ -6,11 +6,9 @@ import info.jemsit.common.data.enums.RabbitMQMessages;
 @JsonTypeName("MediaFromMobileStarted")
 public class MediaFromMobileStarted extends RabbitMQMessage {
 
-    public MediaFromMobileStarted(String id, RabbitMQMessages message) {
-        super(id, message);
+    public MediaFromMobileStarted(String userId, RabbitMQMessages message) {
+        super(userId, message);
     }
 
-    protected MediaFromMobileStarted() {
-        super(null, null); // ✅ Jackson needs this
-    }
+    protected MediaFromMobileStarted() {}
 }

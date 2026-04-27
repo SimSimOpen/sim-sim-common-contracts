@@ -15,18 +15,41 @@ import static info.jemsit.common.data.constants.RabbitMQConstants.*;
 public class RabbitMQCommonConfig {
 
     @Bean
-    public Queue mediaQueue() {
-        return new Queue(MEDIA_QUEUE, true);
+    public Queue mediaNotificationQueue() {
+        return new Queue(MEDIA_NOTIFICATION_QUEUE, true);
     }
 
+    @Bean
+    public Queue mediaProfileQueue() {
+        return new Queue(MEDIA_PROFILE_QUEUE, true);
+    }
+
+    @Bean
+    public Queue productNotificationQueue() {
+        return new Queue(PRODUCT_NOTIFICATION_QUEUE, true);
+    }
     @Bean
     public TopicExchange mediaExchange() {
         return new TopicExchange(MEDIA_EXCHANGE);
     }
 
+    @Bean TopicExchange productExchange() {
+        return new TopicExchange(PRODUCT_EXCHANGE);
+    }
+
     @Bean
-    public Binding mediaBinding(Queue mediaQueue, TopicExchange mediaExchange) {
-        return BindingBuilder.bind(mediaQueue).to(mediaExchange).with(MEDIA_KEY);
+    public Binding mediaNotificationBinding() {
+        return BindingBuilder.bind(mediaNotificationQueue()).to(mediaExchange()).with(MEDIA_KEY);
+    }
+
+    @Bean
+    public Binding mediaProfileBinding() {
+        return BindingBuilder.bind(mediaProfileQueue()).to(mediaExchange()).with(MEDIA_KEY);
+    }
+
+    @Bean
+    public Binding productNotificationBinding() {
+        return BindingBuilder.bind(productNotificationQueue()).to(productExchange()).with(PRODUCT_KEY);
     }
 
     @Bean
